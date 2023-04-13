@@ -8,7 +8,12 @@
 vim your-file-name.json
 ```
 5. and:
+
 Press **:**
+
 Type: **%s;\\n; ;g** and press *enter*
+
 Press **:**
+
 and saved the file by typing **wq!**
+6. in the next step, I have created a bucket were I am storing the terraform state file
