@@ -1,4 +1,4 @@
-# task 7 👽
+# task 7 👽🚀
 ## the purpose of this task was to *create my first CI/CD pipeline* and *understand the principles of the CI/CD practice*
 1. first thing what I did according to the instruction, I have create a *Service Account for Terraform* by going to *GCP Console* --> *IAM* and clicking **"Create Service Account**
 2. the name can be no matter what kind, I chose: **dareit-vm-tf-ci**, for role I chose = *Project --> Editor*, then I clicked *Continue*, the rest is not so important so I skipped the granting additional users access and clicked **Done**
@@ -24,3 +24,5 @@ and saved the file by typing **wq!**
 10. I am going back to my repository and after adding [*mainf.tf*](https://github.com/inspiritgoldenx/dareit-task-terraform/blob/main/main.tf) I am also adding [*backend.tf*](https://github.com/inspiritgoldenx/dareit-task-terraform/blob/main/backend.tf) then I have created [*provider.tf*](https://github.com/inspiritgoldenx/dareit-task-terraform/blob/main/provider.tf)
 11. next, I have created: a file in my repository named: **.github/workflows/terraform.yml** with [*terraform.yml*](https://github.com/inspiritgoldenx/dareit-task-terraform/blob/main/.github/workflows/terraform.yml) where all of the above files were added
 12. ufff 
+13. then I have commited all files to the repo and pushed the change to my remote repository, so in the *Actions tab* I can see the workflows
+14. by clicking on the *Terraform Job* I see the details of it, in addition in the *GCP Console* a new Compute Instance got created 🎉
