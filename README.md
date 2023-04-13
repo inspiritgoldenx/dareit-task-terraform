@@ -16,4 +16,9 @@ Type: **%s;\\n; ;g** and press *enter*
 Press **:**
 
 and saved the file by typing **wq!**
+
 6. in the next step, I have created a bucket were I am storing the terraform state file
+7. afterwards, I have created new repository in Github with the name *dareit-task-terraform*
+8. in the *Settings* tab I chose **Actions** under the *Security section* and clicked in the button ***New repository secret*** where I pasted the content of *my-file-name.json* (which was modified)
+9. in addition I named the secret as *TF_GOOGLE_CREDENTIALS*
+10. I am going back to my terminal and after adding [*mainf.tf*](https://github.com/inspiritgoldenx/dareit-task-terraform/blob/main/main.tf) I am also adding [*backend.tf*](https://github.com/inspiritgoldenx/dareit-task-terraform/blob/main/backend.tf) then I have created [*provider.tf*](https://github.com/inspiritgoldenx/dareit-task-terraform/blob/main/provider.tf)
