@@ -26,3 +26,6 @@ and saved the file by typing **wq!**
 12. ufff 
 13. then I have commited all files to the repo and pushed the change to my remote repository, so in the *Actions tab* I can see the workflows
 14. by clicking on the *Terraform Job* I see the details of it, in addition in the *GCP Console* a new Compute Instance got created 🎉
+![dareITterraformzad7](https://user-images.githubusercontent.com/125319277/231847471-524a9dac-339e-4616-8ab5-3c22521da57b.jpg)
+
+![dareITzad7](https://user-images.githubusercontent.com/125319277/231847766-e297c0fe-77f6-46d5-aec9-6957a51795b2.jpg)
